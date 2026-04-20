@@ -1,5 +1,27 @@
 # ClawAutoResearch Docs
 
-This repository is dedicated to the public documentation site for ClawAutoResearch.
+This repository hosts the standalone VitePress documentation site for ClawAutoResearch.
 
-It is intended to host the standalone user and technical documentation site, separate from the main plugin repository.
+The site is intentionally split into two tracks:
+
+- user docs: installation, quickstart, project startup, and recovery flows
+- technical docs: architecture, runtime behavior, state contracts, and operations
+
+## Local development
+
+```bash
+npm install
+npm run docs:dev
+```
+
+## Build
+
+```bash
+npm run docs:build
+```
+
+## Deployment
+
+GitHub Pages deployment is handled by:
+
+- `.github/workflows/deploy-docs.yml`
