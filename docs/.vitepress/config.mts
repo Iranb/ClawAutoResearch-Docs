@@ -103,7 +103,11 @@ export default defineConfig({
     },
   },
   srcDir: '.',
-  srcExclude: ['DOC/**', '_drafts/**'],
+  srcExclude: [
+    'DOC/**',
+    '_drafts/**',
+    'superpowers/plans/2026-04-03-idea-catalyst-kg-subpipeline.md',
+  ],
   ignoreDeadLinks: [/^\/Users\//],
   cleanUrls: true,
   lastUpdated: true,
