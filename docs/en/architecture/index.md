@@ -10,6 +10,7 @@ At a high level, `ClawAutoResearch` can be understood as four layers:
 ## Where to continue
 
 - [System Workflows](./system-workflows.md)
+- [Discord Reporting Nodes](./discord-reporting.md)
 - [Chinese workflow control plane page](../../architecture/workflow-control-plane.md)
 - [Chinese graph and memory page](../../architecture/graph-memory.md)
 

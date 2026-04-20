@@ -47,6 +47,7 @@ const englishThemeConfig = {
         items: [
           { text: 'Overview', link: '/en/architecture/' },
           { text: 'System Workflows', link: '/en/architecture/system-workflows' },
+          { text: 'Discord Reporting', link: '/en/architecture/discord-reporting' },
         ],
       },
     ],
@@ -181,6 +182,7 @@ export default defineConfig({
           items: [
             { text: '体系总览', link: '/architecture/' },
             { text: '系统特性与 Workflow 流程总览', link: '/architecture/system-workflows' },
+            { text: 'Workflow 向 Discord 汇报的节点', link: '/architecture/discord-reporting' },
             { text: 'Workflow 控制平面', link: '/architecture/workflow-control-plane' },
             { text: 'Broad Paper Search', link: '/architecture/broad-paper-search' },
             { text: 'Workflow Hooks', link: '/architecture/workflow-hooks' },
