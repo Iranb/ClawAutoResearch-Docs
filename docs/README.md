@@ -12,7 +12,7 @@
 - 架构设计：[`docs/architecture/`](./architecture/)
 - 运行时参考：[`docs/reference/`](./reference/)
 - 运维与发布：[`docs/operations/`](./operations/)
-- 内部设计历史：[`docs/internal-history.md`](./internal-history.md)
+- 内部设计历史说明：[`docs/internal-history.md`](./internal-history.md)
 
 如果你是第一次理解这个系统，推荐顺序：
 

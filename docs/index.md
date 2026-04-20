@@ -106,7 +106,7 @@ features:
 - `docs/`：唯一权威文档根，也是 VitePress 站点源目录。
 - `docs/user-guide/`：用户教程与使用入口。
 - `docs/technical/`：技术入口页。
-- `docs/superpowers/`：保留内部设计历史、specs 和 implementation plans。
+- 内部设计历史与私有计划：不再进入公开 docs 站点。
 - `DOC/`：保留兼容入口与历史说明，提醒读者迁移到新 portal。
 
 如果你是从旧链接进来的，不需要担心跳不到内容。兼容入口会继续保留，但主导航、细化介绍和后续更新都应该集中在这里。
