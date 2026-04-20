@@ -106,7 +106,7 @@ export default defineConfig({
   srcExclude: [
     'DOC/**',
     '_drafts/**',
-    'superpowers/plans/2026-04-03-idea-catalyst-kg-subpipeline.md',
+    'superpowers/**',
   ],
   ignoreDeadLinks: [/^\/Users\//],
   cleanUrls: true,
