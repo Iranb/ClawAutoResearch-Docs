@@ -161,5 +161,6 @@
 当你已经能把项目跑起来，再继续看：
 
 1. [项目生命周期](../get-started/project-lifecycle.md)
-2. [Slash Commands 总览](./slash-commands.md)
-3. [技术文档入口](../technical/index.md)
+2. [流程介绍](./workflow-tour.md)
+3. [Slash Commands 总览](./slash-commands.md)
+4. [技术文档入口](../technical/index.md)

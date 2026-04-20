@@ -62,6 +62,7 @@ Do not rely on the old chat history as the source of truth.
 
 ## 5. Most important next reading
 
+- [Workflow Tour](./workflow-tour.md)
 - [Slash Commands](./slash-commands.md)
 - [System Workflows](../architecture/system-workflows.md)
 - [Chinese project lifecycle page](../../get-started/project-lifecycle.md)
