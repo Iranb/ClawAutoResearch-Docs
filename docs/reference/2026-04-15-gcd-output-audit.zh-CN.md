@@ -4,8 +4,8 @@
 
 审核对象：
 
-- `/Users/iranb/Downloads/gcd-paper.pdf`
-- `/Users/iranb/Downloads/paper.pdf`
+- 本地导出的 `gcd-paper.pdf`
+- 本地导出的 `paper.pdf`
 
 ## 结论摘要
 

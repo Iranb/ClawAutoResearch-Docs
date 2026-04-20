@@ -249,7 +249,7 @@ node scripts/run_gateway_chat_send_live_test.mjs \
 node scripts/run_discord_native_slash_replay_test.mjs \
   --command auto-research \
   --args '"Generalized Category Discovery"' \
-  --projects-root "/tmp/openclaw-native-slash-tests"
+  --projects-root "<temp-projects-root>"
 ```
 
 这个脚本会构造与 OpenClaw 官方 Discord native slash 测试一致的上下文：
@@ -269,7 +269,7 @@ node scripts/run_discord_native_slash_replay_test.mjs \
 node scripts/run_discord_native_slash_replay_test.mjs \
   --command auto-research \
   --args '"Generalized Category Discovery"' \
-  --projects-root "/tmp/openclaw-native-slash-tests" \
+  --projects-root "<temp-projects-root>" \
   --channel-id gcd-research-lab \
   --user-id owner
 ```
@@ -287,7 +287,7 @@ node scripts/run_discord_native_slash_replay_test.mjs \
 node scripts/run_discord_native_slash_replay_test.mjs \
   --command auto-review \
   --args '"Generalized Category Discovery"' \
-  --projects-root "/tmp/openclaw-native-slash-tests" \
+  --projects-root "<temp-projects-root>" \
   --channel-id gcd-survey-lab \
   --user-id owner
 ```
