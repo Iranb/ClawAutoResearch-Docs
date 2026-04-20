@@ -113,6 +113,22 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   base: docsBase,
+  markdown: {
+    config(md) {
+      const defaultFence =
+        md.renderer.rules.fence?.bind(md.renderer.rules) ??
+        ((tokens, idx, options, env, self) =>
+          self.renderToken(tokens, idx, options));
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx];
+        const language = token.info.trim().split(/\s+/, 1)[0];
+        if (language === 'mermaid') {
+          return `<MermaidBlock code="${encodeURIComponent(token.content)}" />`;
+        }
+        return defaultFence(tokens, idx, options, env, self);
+      };
+    },
+  },
   head: [
     ['meta', { name: 'theme-color', content: '#0f766e' }],
     ['meta', { property: 'og:title', content: 'ClawAutoResearch Docs' }],
