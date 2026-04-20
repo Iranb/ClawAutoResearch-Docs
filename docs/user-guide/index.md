@@ -13,12 +13,14 @@
 
 - [安装指南](./installation.md)
 - [使用指南](./usage.md)
+- [Slash Commands 总览](./slash-commands.md)
 
 ## 推荐阅读顺序
 
 1. [安装指南](./installation.md)
 2. [使用指南](./usage.md)
-3. [项目生命周期](../get-started/project-lifecycle.md)
+3. [Slash Commands 总览](./slash-commands.md)
+4. [项目生命周期](../get-started/project-lifecycle.md)
 
 ## 什么时候看这一部分
 
