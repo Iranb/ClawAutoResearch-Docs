@@ -6,11 +6,100 @@ const docsBase =
   process.env.DOCS_BASE ??
   (process.env.GITHUB_ACTIONS === 'true' ? `/${repositoryName}/` : '/');
 
+const englishThemeConfig = {
+  logo: '/favicon.svg',
+  siteTitle: 'ClawAutoResearch Docs',
+  nav: [
+    { text: 'Overview', link: '/en/' },
+    { text: 'User Guide', link: '/en/user-guide/' },
+    { text: 'Technical Docs', link: '/en/technical/' },
+    { text: 'Architecture', link: '/en/architecture/' },
+    { text: 'Reference', link: '/en/reference/' },
+    { text: 'Operations', link: '/en/operations/' },
+  ],
+  sidebar: {
+    '/en/user-guide/': [
+      {
+        text: 'User Guide',
+        items: [
+          { text: 'Entry', link: '/en/user-guide/' },
+          { text: 'Installation', link: '/en/user-guide/installation' },
+          { text: 'Usage', link: '/en/user-guide/usage' },
+        ],
+      },
+    ],
+    '/en/technical/': [
+      {
+        text: 'Technical Docs',
+        items: [
+          { text: 'Entry', link: '/en/technical/' },
+          { text: 'Architecture', link: '/en/architecture/' },
+          { text: 'Reference', link: '/en/reference/' },
+          { text: 'Operations', link: '/en/operations/' },
+        ],
+      },
+    ],
+    '/en/architecture/': [
+      {
+        text: 'Architecture',
+        items: [
+          { text: 'Overview', link: '/en/architecture/' },
+          { text: 'System Workflows', link: '/en/architecture/system-workflows' },
+        ],
+      },
+    ],
+    '/en/reference/': [
+      {
+        text: 'Reference',
+        items: [
+          { text: 'Entry', link: '/en/reference/' },
+        ],
+      },
+    ],
+    '/en/operations/': [
+      {
+        text: 'Operations',
+        items: [
+          { text: 'Entry', link: '/en/operations/' },
+        ],
+      },
+    ],
+  },
+  socialLinks: [{ icon: 'github', link: 'https://github.com/Iranb/ClawAutoResearch-Docs' }],
+  outline: {
+    level: [2, 3],
+    label: 'On This Page',
+  },
+  docFooter: {
+    prev: 'Previous',
+    next: 'Next',
+  },
+  footer: {
+    message: 'Standalone documentation site for ClawAutoResearch.',
+    copyright: 'MIT Licensed | ClawAutoResearch',
+  },
+};
+
 export default defineConfig({
   title: 'ClawAutoResearch Docs',
   description:
     'OpenClaw 自动科研插件的统一文档站，覆盖工作流控制平面、PaperNexus 图谱、Agent/Skill、状态合同、运行时工具和开发运维。',
   lang: 'zh-CN',
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh-CN',
+    },
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      link: '/en/',
+      title: 'ClawAutoResearch Docs',
+      description:
+        'Bilingual documentation portal for ClawAutoResearch, covering onboarding, architecture, workflow control, and high-level system flows.',
+      themeConfig: englishThemeConfig,
+    },
+  },
   srcDir: '.',
   srcExclude: ['DOC/**', '_drafts/**'],
   ignoreDeadLinks: [/^\/Users\//],
