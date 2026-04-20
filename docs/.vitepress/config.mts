@@ -65,7 +65,7 @@ const englishThemeConfig = {
       },
     ],
   },
-  socialLinks: [{ icon: 'github', link: 'https://github.com/Iranb/ClawAutoResearch-Docs' }],
+  socialLinks: [{ icon: 'github', link: 'https://github.com/Iranb/ClawAutoResearch' }],
   outline: {
     level: [2, 3],
     label: 'On This Page',
