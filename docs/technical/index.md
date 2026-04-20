@@ -11,11 +11,12 @@
 
 ## 推荐阅读顺序
 
-1. [系统设计总览](../architecture/index.md)
-2. [Workflow 控制平面](../architecture/workflow-control-plane.md)
-3. [Commands 与 Tools](../reference/commands-and-tools.md)
-4. [State Contracts](../reference/state-contracts.md)
-5. [测试与调试](../operations/testing-and-debugging.md)
+1. [系统特性与 Workflow 流程总览](../architecture/system-workflows.md)
+2. [系统设计总览](../architecture/index.md)
+3. [Workflow 控制平面](../architecture/workflow-control-plane.md)
+4. [Commands 与 Tools](../reference/commands-and-tools.md)
+5. [State Contracts](../reference/state-contracts.md)
+6. [测试与调试](../operations/testing-and-debugging.md)
 
 ## 这部分适合谁
 

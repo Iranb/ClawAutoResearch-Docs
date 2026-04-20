@@ -83,6 +83,7 @@ export default defineConfig({
           text: '系统设计',
           items: [
             { text: '体系总览', link: '/architecture/' },
+            { text: '系统特性与 Workflow 流程总览', link: '/architecture/system-workflows' },
             { text: 'Workflow 控制平面', link: '/architecture/workflow-control-plane' },
             { text: 'Broad Paper Search', link: '/architecture/broad-paper-search' },
             { text: 'Workflow Hooks', link: '/architecture/workflow-hooks' },
