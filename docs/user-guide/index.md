@@ -5,14 +5,19 @@
 这里不优先解释底层架构、状态合同或模块设计，而是优先回答：
 
 - 第一次怎么安装和启用。
-- 该用 `/auto-research` 还是 `/auto-review`。
+- 安装完成以后该怎么真正开始用。
 - 项目卡住时先看哪里。
 - 会话断了以后怎么恢复。
 
+## 两条入口
+
+- [安装指南](./installation.md)
+- [使用指南](./usage.md)
+
 ## 推荐阅读顺序
 
-1. [10 分钟快速上手教程](./quickstart-tutorial.md)
-2. [安装与启用](../get-started/installation.md)
+1. [安装指南](./installation.md)
+2. [使用指南](./usage.md)
 3. [项目生命周期](../get-started/project-lifecycle.md)
 
 ## 什么时候看这一部分

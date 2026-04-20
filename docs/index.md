@@ -8,21 +8,24 @@ hero:
   tagline: "文档站现在分成两条线: 用户文档负责快速上手，技术文档负责解释控制平面、运行时与状态合同。"
   actions:
     - theme: brand
-      text: 先看 10 分钟教程
-      link: /user-guide/quickstart-tutorial
+      text: 先看安装指南
+      link: /user-guide/installation
     - theme: alt
-      text: 进入用户文档
-      link: /user-guide/
+      text: 再看使用指南
+      link: /user-guide/usage
     - theme: alt
       text: 进入技术文档
       link: /technical/
 features:
   - title: 用户文档 / User Guide
-    details: 给第一次使用系统的人。先学安装、项目启动、状态查看和恢复，不先讲底层实现。
+    details: 给第一次使用系统的人。现在明确拆成“安装”和“使用”两条入口，不先讲底层实现。
     link: /user-guide/
-  - title: 10 分钟教程 / Quick Tutorial
-    details: 一条最短路径，帮你在几分钟内判断该用 /auto-research 还是 /auto-review，并把项目真正跑起来。
-    link: /user-guide/quickstart-tutorial
+  - title: 安装指南 / Installation
+    details: 只讲怎么把插件和文档站装好，并确认 workflow 环境真的可用。
+    link: /user-guide/installation
+  - title: 使用指南 / Usage
+    details: 只讲安装完成后怎么启动实验项目或综述项目、怎么查状态、怎么恢复。
+    link: /user-guide/usage
   - title: 技术文档 / Technical Docs
     details: 给维护者和扩展开发者。集中解释 workflow control plane、runtime queue、状态合同和模块边界。
     link: /technical/
@@ -54,7 +57,7 @@ features:
 <div class="portal-grid">
   <div class="portal-card">
     <h3>用户入口：第一次接触这个系统</h3>
-    <p>先读 <a href="./user-guide/">用户文档</a>，再直接照着 <a href="./user-guide/quickstart-tutorial">10 分钟教程</a> 操作。</p>
+    <p>先读 <a href="./user-guide/installation">安装指南</a>，再继续看 <a href="./user-guide/usage">使用指南</a>。</p>
   </div>
   <div class="portal-card">
     <h3>技术入口：要修系统的人</h3>
@@ -62,7 +65,7 @@ features:
   </div>
   <div class="portal-card">
     <h3>项目操作者：要跑科研项目的人</h3>
-    <p>重点读 <a href="./user-guide/quickstart-tutorial">快速上手教程</a> 和 <a href="./get-started/project-lifecycle">项目生命周期</a>。</p>
+    <p>重点读 <a href="./user-guide/usage">使用指南</a> 和 <a href="./get-started/project-lifecycle">项目生命周期</a>。</p>
   </div>
   <div class="portal-card">
     <h3>部署者：要发布文档站的人</h3>
@@ -93,7 +96,7 @@ features:
 
 | 类型 | 面向谁 | 从哪里进入 |
 | --- | --- | --- |
-| 用户文档 | 第一次使用系统的人 | [用户文档](./user-guide/index.md) |
+| 用户文档 | 第一次使用系统的人 | [安装指南](./user-guide/installation.md) / [使用指南](./user-guide/usage.md) |
 | 技术文档 | 维护者、调试者、扩展开发者 | [技术文档](./technical/index.md) |
 
 ## 新文档站与旧文档的关系

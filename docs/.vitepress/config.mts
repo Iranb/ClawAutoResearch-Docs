@@ -49,8 +49,9 @@ export default defineConfig({
           text: '用户文档',
           items: [
             { text: '入口说明', link: '/user-guide/' },
-            { text: '10 分钟快速上手教程', link: '/user-guide/quickstart-tutorial' },
-            { text: '安装与启用', link: '/get-started/installation' },
+            { text: '安装指南', link: '/user-guide/installation' },
+            { text: '使用指南', link: '/user-guide/usage' },
+            { text: '快速路径说明', link: '/user-guide/quickstart-tutorial' },
             { text: '项目生命周期', link: '/get-started/project-lifecycle' },
           ],
         },

@@ -5,6 +5,8 @@
 - Web 文档站源目录：[`docs/`](./)
 - VitePress 首页：[`docs/index.md`](./index.md)
 - 用户文档入口：[`docs/user-guide/`](./user-guide/)
+- 用户安装指南：[`docs/user-guide/installation.md`](./user-guide/installation.md)
+- 用户使用指南：[`docs/user-guide/usage.md`](./user-guide/usage.md)
 - 快速开始：[`docs/get-started/`](./get-started/)
 - 技术文档入口：[`docs/technical/`](./technical/)
 - 架构设计：[`docs/architecture/`](./architecture/)
@@ -15,9 +17,9 @@
 如果你是第一次理解这个系统，推荐顺序：
 
 1. `docs/index.md`
-2. `docs/user-guide/quickstart-tutorial.md`
-3. `docs/get-started/project-lifecycle.md`
-4. `docs/technical/index.md`
-5. `docs/architecture/workflow-control-plane.md`
-6. `docs/architecture/graph-memory.md`
+2. `docs/user-guide/installation.md`
+3. `docs/user-guide/usage.md`
+4. `docs/get-started/project-lifecycle.md`
+5. `docs/technical/index.md`
+6. `docs/architecture/workflow-control-plane.md`
 7. `docs/reference/state-contracts.md`

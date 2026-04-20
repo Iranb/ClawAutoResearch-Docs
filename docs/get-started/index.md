@@ -5,7 +5,8 @@
 如果你是第一次进入这个系统，先读：
 
 1. [用户文档入口](../user-guide/index.md)
-2. [10 分钟快速上手教程](../user-guide/quickstart-tutorial.md)
+2. [安装指南](../user-guide/installation.md)
+3. [使用指南](../user-guide/usage.md)
 
 这一组页面继续回答三个问题：
 
